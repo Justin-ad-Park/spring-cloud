@@ -35,7 +35,7 @@ public class Application {
 				.title("Person Service Api Documentation")
 				.description("Documentation automatically generated")
 				.version(model.getVersion())
-				.contact(new Contact("Piotr Mińkowski", "piotrminkowski.wordpress.com", "piotr.minkowski@gmail.com"));
+				.contact(new Contact("Justin Park", "https://github.com/Justin-ad-Park", "justin.ad.park@gmail.com"));
 		return new Docket(DocumentationType.SWAGGER_2).select()
 				.apis(RequestHandlerSelectors.basePackage("pl.piomin.services.boot.controller"))
 				.paths(PathSelectors.any()).build()

@@ -32,7 +32,8 @@ public class PersonController {
 	}
 	
 	@GetMapping("/{id}")
-	public Person findById(@RequestParam("id") Long id) {
+	public Person findById(@RequestParam("id") Long id)
+	{
 		return persons.stream().filter(it -> it.getId().equals(id)).findFirst().get();
 	}
 	
