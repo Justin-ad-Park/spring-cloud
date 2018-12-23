@@ -1,4 +1,4 @@
-package pl.piomin.services.boot;
+package justin.ad.services.boot;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,7 +10,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -38,7 +37,7 @@ public class Application {
 				.version(model.getVersion())
 				.contact(new Contact("Justin Park", "https://github.com/Justin-ad-Park", "justin.ad.park@gmail.com"));
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("pl.piomin.services.boot.controller"))
+				.apis(RequestHandlerSelectors.basePackage("justin.ad.services.boot.controller"))
 				.paths(PathSelectors.any()).build()
 				.apiInfo(builder.build());
 	}

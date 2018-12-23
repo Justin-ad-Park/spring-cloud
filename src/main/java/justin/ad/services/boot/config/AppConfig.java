@@ -1,4 +1,4 @@
-package pl.piomin.services.boot.config;
+package justin.ad.services.boot.config;
 
 import org.springframework.context.annotation.Configuration;
 

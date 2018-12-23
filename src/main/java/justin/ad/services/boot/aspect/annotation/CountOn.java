@@ -1,4 +1,4 @@
-package pl.piomin.services.boot.aspect.annotation;
+package justin.ad.services.boot.aspect.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

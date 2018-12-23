@@ -1,4 +1,4 @@
-package pl.piomin.services.boot.config;
+package justin.ad.services.boot.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan({"pl.piomin.services.webmvc"})
+@ComponentScan({"justin.ad.services.webmvc"})
 @EnableAspectJAutoProxy
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
 

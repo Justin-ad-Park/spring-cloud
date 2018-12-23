@@ -17,7 +17,7 @@
     </appender>
 
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>/log/spring/firstapp-log.log</file>
+        <file>/log/spring/spring-cloud-chapter02.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>/log/spring/firstapp-%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>30</maxHistory>

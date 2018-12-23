@@ -1,4 +1,4 @@
-package pl.piomin.services.boot.aspect;
+package justin.ad.services.boot.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -33,7 +33,7 @@ public class CounterServiceHandler {
      * Test URL : http://localhost:8080/aoptest
      * @param jp
      */
-    @Before("@annotation(pl.piomin.services.boot.aspect.annotation.CountOn)")
+    @Before("@annotation(justin.ad.services.boot.aspect.annotation.CountOn)")
     public void countService(JoinPoint jp) {
         Object targetObject = jp.getTarget();
         log.debug("[AOP Object info : " + targetObject.getClass().getName());

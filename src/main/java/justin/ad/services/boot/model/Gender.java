@@ -1,4 +1,4 @@
-package pl.piomin.services.boot.model;
+package justin.ad.services.boot.model;
 
 public enum Gender {
 

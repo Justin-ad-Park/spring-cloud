@@ -14,7 +14,7 @@
     </context-param>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>pl.piomin.services.boot.config.AppConfig</param-value>
+        <param-value>justin.ad.services.boot.config.AppConfig</param-value>
     </context-param>
 
     <!-- 옵션 2. xml 기반으로 빈 정의를 하는 경우
@@ -34,7 +34,7 @@
         </init-param>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>pl.piomin.services.boot.config.WebMvcConfig</param-value>
+            <param-value>justin.ad.services.boot.config.WebMvcConfig</param-value>
         </init-param>
         <!-- 옵션 2. XML을 사용하는 경우 임의의 빈 정의 파일을 지정하지 않으면
             /WEB-INF/{servlet-name}-servlet.xml을 사용해서
