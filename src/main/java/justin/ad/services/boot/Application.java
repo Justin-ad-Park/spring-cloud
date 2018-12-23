@@ -19,6 +19,14 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger.web.UiConfiguration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * How to start mongoDB
+ * docker ps -a
+ * if it exists a mongo container with status exited
+ * 	docker start mongo
+ * else, means doesn't exist mongo
+ * 	docker run -d --name mongo -p 27017:27017 mongo
+ */
 @SpringBootApplication
 @EnableSwagger2
 public class Application {
