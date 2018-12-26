@@ -31,7 +31,6 @@
 	<modules>
 		<module>sample-discovery-service</module>
 		<module>sample-client-service</module>
-		<module>sample-gateway-service</module>
 		<module>sample-config-service</module>
 	</modules>
 </project>
