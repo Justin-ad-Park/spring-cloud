@@ -2,4 +2,23 @@
 /bin/
 /.settings/
 /.classpath
-/.project
+/build/
+/lib/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+/.idea/
+/.idea/vcs.xml
